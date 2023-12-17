@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #607274;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    margin-top: 7vh;
+    font-size: 7vmin;
+}
+
+.tile{
+    height: 13vmin;
+    width: 13vmin;
+    font-size: 7vmin;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.4);
+    background-color: azure;
+    color: black;
+}
+
+.tile:hover{
+    height: 14vmin;
+    width: 14vmin;
+    background-color: #65B741;
+}
+
+.gamebox{
+    height: 45vmin;
+    width: 50vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7vmin;
+    justify-content: center;
+    align-items: center;
+}
+
+#reset-btn{
+    width: 20vw;
+    height: 7vh;
+    font-size: 3vmin;
+    background-color: #191919;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+}
+#reset-btn:hover{
+    background-color:#366469 ;
+}
+
+
+#msg{
+    color: rgb(90, 6, 6);
+    font-size: 6vmin;
+}
+
+.win-msg{
+    display: none;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 70%;
+}
+
+#newgame{
+    background-color: #191919;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#newgame:hover{
+    background-color:#366469 ;
+}
+
+
+.draw{
+    display: none;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 70%;
+}
+#tie-button{
+    background-color: #191919;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#tie{
+    color: rgb(90, 6, 6);
+    font-size: 6vmin;
+}
